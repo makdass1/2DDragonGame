@@ -6,6 +6,11 @@ using UnityEngine;
 public class MoveLeft : MonoBehaviour
 {
     public float Speed;
+    private  Enemy enemy;
+    private void Awake()
+    {
+         enemy = GetComponent<Enemy>();
+    }
 
     void Update()
     {
@@ -15,6 +20,7 @@ public class MoveLeft : MonoBehaviour
         {
             transform.position += Vector3.right * 30;
             ShowRandomSprite();
+            enemy?.Respawn();
 
         }
     }

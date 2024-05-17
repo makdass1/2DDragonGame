@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - BlueDragon
+  - Fireball
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
-    uniqueID: 1683767617
+  - name: Fireball
+    uniqueID: 2334852611
+    locked: 0
+  - name: BlueDragon
+    uniqueID: 2333714411
     locked: 0

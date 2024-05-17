@@ -13,6 +13,6 @@ public class Jump : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
             {
             GetComponent<Rigidbody2D>().AddForce(JumpForce); }
-
+        GetComponent<AudioSource>().Play();
     }
 }
