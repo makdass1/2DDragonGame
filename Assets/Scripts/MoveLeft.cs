@@ -27,7 +27,7 @@ public class MoveLeft : MonoBehaviour
     private void ShowRandomSprite()
     {
 
-        int index = UnityEngine.Random.Range(0, 3);
+        int index = UnityEngine.Random.Range(0, 4);
         int childCount = transform.childCount;
         for (int i = 0; i < childCount; i++)
         {
